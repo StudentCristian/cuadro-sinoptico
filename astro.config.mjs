@@ -1,4 +1,6 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from 'astro/config'
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  site: 'https://StudentCristian.github.io',
+  base: 'cuadro_sinoptico_analisis_datos',
+})
